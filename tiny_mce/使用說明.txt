@@ -1,0 +1,32 @@
+崁入youtube可以直接預覽
+
+指令簡單
+
+可以直接用 selector: "textarea",
+
+直接抓取全部的標籤
+
+我有加入一個tinymce.php直接引入即可
+
+但後臺我是用adm目錄
+
+編輯器放在/js 所以
+
+會看到<script src="../js/tinymce/tinymce.min.js"></script>
+
+
+<!-- 編輯器1 -->
+<textarea id="editor1">Hello, World!</textarea>
+
+<!-- 編輯器2 -->
+<textarea id="editor2">Lorem ipsum dolor sit amet.</textarea>
+
+<script src="/path/to/tinymce/tinymce.min.js"></script>
+<script>
+  tinymce.init({
+    selector: '#editor1'
+  });
+  tinymce.init({
+    selector: '#editor2'
+  });
+</script>

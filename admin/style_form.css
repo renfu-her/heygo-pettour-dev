@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+input{
+	width:98%;
+	font-size: 14px;
+	color: #333;
+	text-decoration: none;
+	background-color: #f4f4f4;
+	border: 1px solid #e2e2e2;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin:3px;
+	padding:3px;
+}
+
+	
+textarea{
+	width:98%;
+	font-size: 14px;
+	color: #333;
+	text-decoration: none;
+	background-color: #f4f4f4;
+	border: 1px solid #e2e2e2;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin:3px;
+	padding:3px;
+}
+select{
+	width:98%;
+	font-size: 14px;
+	color: #333;
+	text-decoration: none;
+	background-color: #f4f4f4;
+	border: 1px solid #e2e2e2;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin:3px;
+	padding:3px;
+}
+.a_movetop:hover{
+	position:relative;
+	top:1px;
+	filter:brightness(90%);
+	cursor:pointer;
+}
+
+.input_checkbox{
+	zoom: 200%;
+	width: 15px;
+	margin-right:3px !important;
+}
+.btn_bt{
+	width: 120px;	
+}
+.input_sort
+{
+	width: 40px;
+	height: 30px;
+	text-align:center;
+	background: #F4F4F4;
+	border: 1px #E2E2E2 solid;
+	border-radius: 5px;		
+}
+.textarea_content{
+	width:98% !important;
+	height: 300px;
+
+}

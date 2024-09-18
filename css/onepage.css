@@ -1,0 +1,283 @@
+html,
+body {
+  height: 100%;
+	font-size: 16px;
+	font-family:"微軟正黑體", Micorsoft Jheng-Hei;
+	letter-spacing: 0.5px;
+  /* margin-top: 100px; */
+  scroll-behavior: smooth;
+}
+
+select,
+.custom-select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: transparent;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='%239e9f9f' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 5px;
+  border: 1px solid #dfdfdf;
+  border-radius: 2px;
+  margin-right: 2rem;
+  padding-right: 2rem;
+}
+
+hr {
+  border-color: #898989;
+}
+
+.sale-top {
+  background-color: #595757;
+  color: white;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1560px;
+  }
+}
+
+.edm-top {
+  margin-top: 20px;
+  margin-bottom: 3rem;
+}
+
+@media (max-width:767px) {
+  .edm-top {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+}
+
+.card, .card-footer {
+  background-color: white;
+  border: 0;
+}
+
+.card-body, .card-footer {
+  padding: .75rem 0;
+}
+
+.card-text {
+  color: #595757;
+  height: 56px;
+  margin-bottom: 10px;
+}
+
+@media (max-width:767px) {
+  .card-text {
+    height: auto;
+  }
+}
+
+.items .dropdown .btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 160px;
+  position: relative;
+}
+
+.ori-price {
+  color: #898989;
+}
+
+.promo-price {
+  color: #c30d23;
+}
+
+.checkout-top {
+  position: relative;
+  text-align: center;
+}
+
+.mid-title {
+  background-color: white;
+  display: inline-block;
+  z-index: 9;
+}
+
+.mid-line {
+  width: 100%;
+  margin: 0;
+  border-color: #898989;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.checkout-row {
+  background-color: #efefef;
+  position: relative;
+  padding: 1rem 1.75rem;
+}
+
+.price,
+.required {
+  color: #c30d23;
+}
+
+.btn-number {
+  background-color: white;
+}
+
+.input-number {
+  border-color: #6c757d;
+}
+
+.close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.w-240 {
+  width: 240px;
+}
+
+.sidebar {
+  position: fixed;
+  right: 10px;
+  bottom: 80px;
+  z-index: 99;
+}
+
+.sidebar ul li {
+  margin-bottom: 20px;
+}
+
+.side_ic {
+  width: 75%;
+}
+
+@media (max-width:767px) {
+  .sidebar {
+    right: 15px;
+    bottom: 15px;
+  }
+
+  .side_ic {
+    width: 48px;
+  }
+
+  .sidebar ul li {
+    margin-bottom: 10px;
+  }
+}
+
+footer,
+.company-detail li,
+.company-detail li a {
+  color: #595757;
+}
+
+.footer_ic {
+  width: 80%;
+}
+
+.company-detail li:not(:last-child) {
+  border-right: 1px solid #595757;
+  margin: 0;
+  padding-right: .5rem;
+}
+
+@media (max-width:767px) {
+  .side_ic {
+    width: 42px;
+  }
+  .footer_ic {
+    width: 48px;
+  }
+
+  .company-detail li:first-child {
+    width: 100%;
+    border-right: 0;
+  }
+}
+
+
+
+.ship-row label {
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 88px;
+  border-radius: 8px;
+  border: 1px solid #b5b5b6;
+  cursor: pointer;
+}
+
+@media (max-width:767px) {
+  .ship-row label {
+    width: 145px;
+    flex-direction: column;
+    padding: 3rem 1rem;
+  }
+  .ship-row label img{
+    height: 60px;
+  }
+}
+
+.imgbgchk:checked + label {
+  border-color: #e83828;
+}
+
+.store-select:before {
+  /* content: url("../img/shipping02.png") no-repeat center center; */
+  content: "123";
+  width: 36px;
+  height: 36px;
+}
+
+#inputNote {
+  min-height: 150px;
+}
+
+.total-text {
+  color: #595757;
+  font-weight: bold;
+  margin: 0;
+}
+
+.btn-store {
+  font-size: 18px;
+  color: 595757;
+  border: 1px solid #ced4da;
+}
+
+.btn-store:hover {
+  border: 1px solid #e83828;
+}
+
+
+
+
+.btn-main {
+  color: white;
+  background: rgb(232,70,92);
+  background: -moz-linear-gradient(90deg, rgba(232,70,92,1) 0%, rgba(245,166,80,1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(232,70,92,1) 0%, rgba(245,166,80,1) 100%);
+  background: linear-gradient(90deg, rgba(232,70,92,1) 0%, rgba(245,166,80,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e8465c",endColorstr="#f5a650",GradientType=1);
+
+  border: 0;
+}
+
+.btn-main:hover {
+  background: rgb(218, 74, 58);
+  background: linear-gradient(90deg, rgba(218,74,58,1) 0%, rgb(195, 138, 47) 100%);
+  color: white!important;
+}
+
+.btn-rounded {
+  border-radius: 50rem;
+}
